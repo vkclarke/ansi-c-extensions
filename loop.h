@@ -4,6 +4,6 @@
  * functions identically to "while (1) {}"
  */
 
-#ifdnef loop
+#ifndef loop
 #define loop while (1)
 #endif

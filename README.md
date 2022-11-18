@@ -6,4 +6,4 @@ stdint.h-independent fixed-size integer types. Follows the Rust convention: i8, 
 
 loop.h
 ------
-"loop {}" macro. Functions identically to "while (1)" or "for (;;)".
+"loop" macro. Functions identically to "while (1)".

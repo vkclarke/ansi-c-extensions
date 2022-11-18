@@ -4,6 +4,10 @@ fixedint.h
 ----------
 stdint.h-independent fixed-size integer types. Follows the Rust convention: i8, u8, i16, u16, i32, u32, i64, u64. Edit or re-typedef these if you have a strict preference.
 
+forever.h
+---------
+Alias macro for "while (1)". Usage is "forever {}" or "do {} forever".
+
 loop.h
 ------
-"loop" macro. Functions identically to "while (1)".
+Alias macro for "for (;;)". Usage is "loop {}". Functions identically to "while (1) {}".
